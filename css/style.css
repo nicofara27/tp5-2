@@ -1,0 +1,26 @@
+.btn-color {
+    background: #A0BCC2;
+    --bs-btn-hover-bg: #b4ccd1;
+}
+
+.btn-ocultar {
+    background: #788d92;
+    --bs-btn-hover-bg: #788d92;
+
+}
+
+.fondo {
+    background: #FEFBE7;
+}
+
+#contenedorFormulario {
+    width: 45%;
+    margin: 2.5vh auto;
+    background: #DAE5D0;
+    
+}
+
+#contenedorDatos {
+    width: 42%;
+}
+
