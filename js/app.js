@@ -43,10 +43,10 @@ class Persona {
     this.nacimiento = nacimiento;
   }
 }
-let persona1 = new Persona(nombre, edad, dni, sexo, peso, altura, nacimiento);
 
 //Funcion para mostrar la informacion de la persona
 function mostrarInfo() {
+  let persona1 = new Persona(nombre, edad, dni, sexo, peso, altura, nacimiento);
   let botonInfo = document.getElementById("botonInfo");
 
   //Comprobar si la funcion mostrara la informacion o la ocultara
