@@ -1,26 +1,29 @@
+.fondo {
+    background: #876445;
+}
+#contenedorFormulario {
+    width: 35%;
+    margin: 2.5vh auto;
+    background: #EDDFB3;
+    
+}
 .btn-color {
-    background: #A0BCC2;
-    --bs-btn-hover-bg: #b4ccd1;
+    background: #76BA99;
+    --bs-btn-hover-bg: #87d3ae;
 }
 
 .btn-ocultar {
-    background: #788d92;
-    --bs-btn-hover-bg: #788d92;
+    background: #639c81;
+    --bs-btn-hover-bg: #598b73;
 
-}
-
-.fondo {
-    background: #FEFBE7;
-}
-
-#contenedorFormulario {
-    width: 45%;
-    margin: 2.5vh auto;
-    background: #DAE5D0;
-    
 }
 
 #contenedorDatos {
     width: 42%;
 }
+
+ul {
+    padding-left: 2px;
+}
+
 

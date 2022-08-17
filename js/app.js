@@ -63,19 +63,19 @@ function mostrarInfo(e) {
     botonInfo.innerHTML = "ocultar";
 
     //Creacion del elemento article que contiene todos los datos
-    articleNuevo.className = "border border-4 p-2 mx-auto";
+    articleNuevo.className = "text-light border border-4 p-2 mx-auto";
     articleNuevo.id = "contenedorDatos";
     contenedor.prepend(articleNuevo);
 
     let contendorDatos = document.getElementById("contenedorDatos");
 
     //Creacion del elemento titulo
-    tituloNuevo.className = "text-center fs-1 mb-3 text-decoration-underline";
+    tituloNuevo.className = "text-center fs-1 mb-2 text-decoration-underline";
     tituloNuevo.innerHTML = persona1.nombre;
     contenedorDatos.prepend(tituloNuevo);
 
     //Creacion del elemento contenedor de las listas
-    divNuevo.className = "d-flex justify-content-around fs-4";
+    divNuevo.className = "d-flex justify-content-around fs-5";
     divNuevo.id = "contenedorListas";
     contendorDatos.appendChild(divNuevo);
 
