@@ -46,11 +46,12 @@ class Persona {
     this.nacimiento = nacimiento;
   }
 }
-let persona1 = new Persona(nombre, edad, dni, sexo, peso, altura, nacimiento);
+
 
 //Funcion para mostrar la informacion de la persona
 function mostrarInfo(e) {
   e.preventDefault();
+  let persona1 = new Persona(nombre, edad, dni, sexo, peso, altura, nacimiento);
 
   let botonInfo = document.getElementById("botonInfo");
 
@@ -115,28 +116,29 @@ function mostrarInfo(e) {
 }
 
 function esMayor() {
+  
   console.log("hola")
-  if(persona1.edad >= 18) {
-    alert(`Usted tiene ${persona1.edad} años, es mayor de edad`);
+  if(edad >= 18) {
+    alert(`Usted tiene ${edad} años, es mayor de edad`);
   } else {
-    alert(`Usted tiene ${persona1.edad} años, es menor de edad`);
+    alert(`Usted tiene ${edad} años, es menor de edad`);
   }
 }
 
 function mostrarGeneracion() {
-  if (persona1.nacimiento <= 1948) {
+  if (nacimiento <= 1948) {
     alert(
       `Usted pertenece a la generación Silent generation (Los niños de la posguerra) y su rasgo caracteristico es la austeridad`
     );
-  } else if (persona1.nacimiento >= 1949 && persona1.nacimiento <= 1968) {
+  } else if (nacimiento >= 1949 && nacimiento <= 1968) {
     alert(
       `Usted pertenece a la generación Baby Boom y su rasgo caracteristico es la ambición`
     );
-  } else if (persona1.nacimiento >= 1969 && persona1.nacimiento <= 1980) {
+  } else if (nacimiento >= 1969 && nacimiento <= 1980) {
     alert(
       `Usted pertenece a la  Generación X y su rasgo caracteristico es la obseción por el éxito`
     );
-  } else if (persona1.nacimiento >= 1981 && persona1.nacimiento <= 1993) {
+  } else if (nacimiento >= 1981 && nacimiento <= 1993) {
     alert(
       `Usted pertenece a la  Generación Y (Millennials) y su rasgo caracteristico es la frustación`
     );
